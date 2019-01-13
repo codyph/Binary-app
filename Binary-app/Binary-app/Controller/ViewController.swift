@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         valueEntryTextField.addTarget(self, action: #selector(textFieldTextDidChange), for: .editingChanged)
         enableBtns(enabled: false, alpha: 0.35)
         
+        
+        
     }
     
     @objc func textFieldTextDidChange () {
